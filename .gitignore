@@ -57,6 +57,9 @@ config.local.php
 *.tar.gz
 *.rar
 
+# 开发文件夹（不提交到 GitHub）
+Development/
+
 # 注意：所有项目文件（包括开发文档）都应该提交到 GitHub
 # 只有系统文件、临时文件和 IDE 配置会被忽略
 

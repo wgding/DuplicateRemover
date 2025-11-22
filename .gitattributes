@@ -1,0 +1,26 @@
+# Git 属性配置
+# 确保文件在跨平台时的一致性
+
+# 文本文件使用 LF 换行符
+* text=auto eol=lf
+
+# 脚本文件应该是可执行的
+*.sh text eol=lf
+
+# PHP 文件
+*.php text eol=lf
+*.phtml text eol=lf
+
+# JSON 文件
+*.json text eol=lf
+
+# Markdown 文件
+*.md text eol=lf
+
+# 确保二进制文件不被修改
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+
